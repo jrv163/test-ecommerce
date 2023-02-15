@@ -1,0 +1,60 @@
+
+.container{
+  background: rgba(240,250,240,1);
+  top: 500px;
+ 
+}
+
+.Navbar{
+  background-color: yellow;
+  width: 100%;
+  height: 56px;
+}
+
+.form{
+  position: relative;
+}
+
+.form__icon{
+  
+  position: absolute;
+  top: 10px;
+  right: 7px;
+}
+
+i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.Navbar__img{
+  top: 10px;
+  left: 250px;
+  position: absolute;
+}
+
+.container__form{
+  width: 700px;
+  position: absolute;
+  top: 8px;
+  left: 350px;
+  margin: auto;
+  z-index: 1;
+}
+
+.card-img{
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  object-fit:fill;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card__box{
+  position: absolute;
+  right:350px;
+  top: 20px;
+}
